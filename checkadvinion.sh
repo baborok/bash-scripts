@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output_file="/etc/prometheus/googlePlayMetrics/textfile/ssl_expiry.prom"
+output_file="/ssl_expiry.prom"
 
 check_ssl_expiry_url() {
     url=$1
